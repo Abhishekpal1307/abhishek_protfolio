@@ -160,8 +160,8 @@ const ProjectsSection = () => {
                     href={project.liveUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    whileHover={{ x: 4 }}
-                    className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-foreground transition-colors mt-2"
+                    whileHover={{ scale: 1.05 }}
+                    className="inline-flex items-center gap-2 px-4 py-2 text-sm font-medium text-white bg-primary rounded-lg hover:bg-primary/90 transition-all mt-4 cursor-pointer z-10 relative"
                   >
                     <Globe className="h-4 w-4" />
                     Visit Live Website
