@@ -1,73 +1,101 @@
-# Welcome to your Lovable project
+# Abhishek Pal - Portfolio
 
-## Project info
+Welcome to my personal portfolio website! This is a modern, responsive portfolio built with cutting-edge technologies to showcase my skills, projects, and certifications as a Full-Stack Developer.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+## 📱 About This Portfolio
 
-## How can I edit this code?
+This portfolio website features:
+- **Hero Section** - A captivating introduction with call-to-action buttons
+- **About Section** - Information about my background and expertise
+- **Skills Section** - Detailed showcase of technical skills and proficiencies
+- **Projects Section** - Featured projects with descriptions, technologies, and live demo links
+- **Certifications Section** - Professional certifications and credentials
+- **Training Section** - Training programs and learning experiences
+- **Contact Section** - Easy ways to get in touch
+- **Responsive Design** - Fully optimized for desktop, tablet, and mobile devices
 
-There are several ways of editing your application.
+## 🚀 Quick Start
 
-**Use Lovable**
+```bash
+# Clone the repository
+git clone https://github.com/Abhishekpal1307/abhishek_protfolio.git
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+# Navigate to the project directory
+cd abhishek_protfolio
 
-Changes made via Lovable will be committed automatically to this repo.
+# Install dependencies
+npm install
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will start at `http://localhost:8080/`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🛠️ Tech Stack
 
-**Use GitHub Codespaces**
+This project is built with modern technologies:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Frontend Framework**: React 18+ with TypeScript
+- **Build Tool**: Vite (Lightning-fast development and production builds)
+- **Styling**: Tailwind CSS (Utility-first CSS framework)
+- **UI Components**: shadcn-ui (High-quality, accessible components)
+- **Animations**: Framer Motion (Smooth, professional animations)
+- **Icons**: Lucide React (Beautiful, consistent icons)
+- **Form Handling**: React Hook Form with Zod validation
+- **Testing**: Vitest & Playwright
 
-## What technologies are used for this project?
+## 📁 Project Structure
 
-This project is built with:
+```
+src/
+├── components/
+│   ├── HeroSection.tsx
+│   ├── AboutSection.tsx
+│   ├── SkillsSection.tsx
+│   ├── ProjectsSection.tsx
+│   ├── CertificationsSection.tsx
+│   ├── TrainingSection.tsx
+│   ├── ContactSection.tsx
+│   ├── Footer.tsx
+│   ├── Navbar.tsx
+│   └── ui/ (shadcn-ui components)
+├── pages/
+│   ├── Index.tsx
+│   └── NotFound.tsx
+├── hooks/
+├── lib/
+└── main.tsx
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📝 Available Scripts
 
-## How can I deploy this project?
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run build:dev` - Build in development mode
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint checks
+- `npm test` - Run tests with Vitest
+- `npm run test:watch` - Watch mode for tests
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## 🔗 Repository
 
-## Can I connect a custom domain to my Lovable project?
+**GitHub**: [https://github.com/Abhishekpal1307/abhishek_protfolio](https://github.com/Abhishekpal1307/abhishek_protfolio)
 
-Yes, you can!
+## 👤 About Me
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+I'm **Abhishek Pal**, a Full-Stack Developer passionate about creating beautiful, responsive, and user-friendly web applications. With expertise in modern web technologies, I build scalable solutions that solve real-world problems.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### Connect With Me
+
+- **GitHub**: [@Abhishekpal1307](https://github.com/Abhishekpal1307)
+- **LinkedIn**: [Abhishek Pal](https://linkedin.com/in/abhishek-pal-kanpur)
+- **Email**: abhi130703@gmail.com
+
+## 📄 License
+
+This project is personal and open source. Feel free to fork and customize it for your own portfolio!
+
+---
+
+Built by **Abhishek Pal** | Full-Stack Developer
