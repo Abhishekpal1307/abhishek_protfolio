@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, ArrowUp, Heart } from "lucide-react";
+import { Github, Linkedin, Mail, ArrowUp } from "lucide-react";
 import { motion } from "framer-motion";
 
 const Footer = () => {
@@ -42,8 +42,7 @@ const Footer = () => {
 
         <div className="text-center">
           <p className="text-sm text-muted-foreground flex items-center gap-1.5 justify-center">
-            Built with <Heart className="h-3 w-3 text-destructive fill-destructive" /> by{" "}
-            <span className="gradient-text font-medium">Abhishek Pal</span>
+            Built by <span className="gradient-text font-medium">Abhishek</span>
           </p>
           <p className="text-xs text-muted-foreground/50 mt-1 font-mono">
             © {new Date().getFullYear()} • React + Tailwind CSS
